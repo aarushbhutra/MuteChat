@@ -1,0 +1,21 @@
+#Mute Chat by Anon695
+# TO mute and unmute "mutechat.mute"
+# TO bypass mutechat.bypass
+
+#If true means that chat is muted
+mutechat: false
+
+#Messages sent
+message:
+  console: "&cThe Chat has been muted by CONSOLE"
+  player: "&cThe chat has been muted by &e%player%"
+  permission: "&c You do NOT have permission! mutechat.mute"
+  enabled: "&cThe Chat is already muted!"
+  #Might replace with a try catch error so this is not needed
+  noplayers: "&cThere are no players to send this message"
+  muted: "&cYou have muted the chat!"
+  mutedchat: "&cYou can't chat while the chat is muted!"
+  nounmuted: "&cThe chat is not muted!"
+  unmuteplayer: "&cThe chat has been unmuted by &e%player%"
+  unmutecons: "&cThe chat has been unmuted by CONSOLE"
+

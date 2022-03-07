@@ -1,0 +1,9 @@
+name: MuteCommand
+version: '${project.version}'
+main: me.anon695.mutechat.MuteCommand
+api-version: 1.18
+authors: [ Anon695 ]
+description: Mute Chat
+commands:
+  mutechat:
+    permission: mutechat.mute
